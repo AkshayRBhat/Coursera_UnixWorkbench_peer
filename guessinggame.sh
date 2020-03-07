@@ -2,7 +2,7 @@ $cat guessinggame.sh
 #!/bin/bash
 function fileguess(){
     ls *.* >count.sh                #Move all files starting with any letter with any extension to file count.sh
-    ans_right=$( wc -l count.sh)    #Count the number of true files
+    ans_right=$((wc -l count.sh))    #Count the number of true files
     while true;
     do
         echo "Hi User!Guess the number of files present in the current working directory"
