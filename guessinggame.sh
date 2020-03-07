@@ -21,4 +21,5 @@ function fileguess(){
         fi
     done
 }
+fileguess()
 echo "Thank You for playing the game!......Bye"
