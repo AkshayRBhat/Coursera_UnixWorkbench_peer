@@ -1,5 +1,3 @@
-all: README.md
-
 README.md:
 	echo "# Guessing Game Course Project" > README.md
 	echo "" >> README.md
